@@ -7,7 +7,7 @@ btn.addEventListener("click",listener);
 
 function listener(){
     if(age.value === "" || name.value === ""){
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
     }
 
     if(age.value>=18){
